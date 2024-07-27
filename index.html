@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PasswordX</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>PasswordX</h1>
+      </div>
+      <div class="input">
+        <form>
+        <div class="inputHolder">
+          <label for="web">Website</label>
+          <input type="text" name="web" id="web" placeholder="WebsiteName" />
+        </div>
+        <div class="inputHolder">
+          <label for="email">Email</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Email/Username"
+          />
+        </div>
+        <div class="inputHolder">
+          <label for="password">Password</label>
+          <input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+        </div>
+        <div class="button">
+          <button id="save" class="btn">Save</button>
+        </div>
+      </form>
+      </div>
+      <main>
+        <table>
+          <caption>
+            Saved Password
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col">Website</th>
+              <th scope="col">Email/Username</th>
+              <th scope="col">Password</th>
+              <th scope="col">Actions</th>
+            </tr>
+          </thead>
+          <tbody id="TableBody">
+          </tbody>
+        </table>
+      </main>
+      <div class="footer">
+        <div class="fRight">
+          Created By
+          <a href="https://github.com/0vais" target="_blank"
+            >Muhammad Ovais Raza</a
+          >
+        </div>
+        <div class="fRight">
+          <a href="https://github.com/0vai5" target="_blank"
+            ><img
+              src="./square-github-brands-solid.svg"
+              alt=";github Icon"
+              height="35"
+              width="50"
+          /></a>
+          <a href="https://linkedin.com/in/0vai5" target="_blank"
+            ><img
+              src="./linkedin-brands-solid.svg"
+              alt=";github Icon"
+              height="35"
+              width="50"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
